@@ -1,0 +1,11 @@
+GitOps Pull-Based Trigger Simulation
+
+Desired State:
+nginx replicas = 2
+
+GitOps Controller:
+Checks Git repository for changes.
+
+Action:
+If Git state changes, the controller detects the difference
+and synchronizes the application state.
